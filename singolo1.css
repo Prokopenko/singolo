@@ -16,15 +16,63 @@ body {
 
 .header {
     background-color: #2d303a;
-    border-bottom: 6px solid #2d303a;
-    height: 90px;
+    border-bottom: 0.6rem solid #323746;
     color: #ffffff;
+    text-transform: uppercase;
 }
 
-.header a.logo h1{
-    text-transform: uppercase;
+.header__wrapper {
+    padding: 2.9rem 4rem 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a.logo {
     text-decoration: none;
-    color: #ffffff;
-    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+.header a.logo h1{
     margin: 0;
+    color: #ffffff;
+    font-size: 2.52rem;
+    letter-spacing: -0.07rem;
+}
+
+.header .red__star {
+    color: #f06c64;
+}
+
+.header__navigation ul{
+    list-style: none;
+    font-size: 1.172rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.header__navigation ul li {
+    padding: 1.29rem 0;
+}
+
+.header__navigation ul li::before {
+    content: "\2022";
+    color: #494e62;
+    display: inline-block; 
+    font-size: 0.7rem;
+    height: 1rem;
+    vertical-align: middle;
+    padding: 0 1.31rem;
+}
+
+.header__navigation ul li.active {
+    color: #f06c64;
+}
+
+.header__navigation ul li.active::before {
+    display: none;
+}
+
+.header__navigation ul li:hover {
+    color: #d2342a;
 }
