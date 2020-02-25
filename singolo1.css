@@ -14,6 +14,8 @@ body {
     /*padding: 25px;*/
 }
 
+/*======= HEADER BEGIN =======*/
+
 .header {
     background-color: #2d303a;
     border-bottom: 0.6rem solid #323746;
@@ -44,7 +46,9 @@ body {
 
 .header__navigation ul{
     list-style: none;
-    font-size: 1.172rem;
+    font-size: 1.22rem;
+    letter-spacing: -0.03rem;
+    font-weight: bold;
     display: flex;
     justify-content: space-between;
     margin: 0;
@@ -76,3 +80,32 @@ body {
 .header__navigation ul li:hover {
     color: #d2342a;
 }
+
+/*======= HEADER END =======*/
+
+/*======= SLIDER BEGIN =======*/
+
+.slider {
+    background-color: #f06c64;
+}
+
+.slider__wrapper {
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.arrow {
+    cursor:pointer;
+    transform: scale(90deg);
+    padding: 0;
+}
+
+.slider__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second__phone {
+
+}
+/*======= SLIDER END =======*/
