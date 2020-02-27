@@ -24,7 +24,7 @@ body {
 }
 
 .header__wrapper {
-    padding: 2.9rem 4rem 2rem 4rem;
+    padding: 2.9rem 4rem 1.9rem 4rem;
     display: flex;
     justify-content: space-between;
 }
@@ -78,7 +78,7 @@ body {
 }
 
 .header__navigation ul li:hover {
-    color: #d2342a;
+    color: #ea676b;
 }
 
 /*======= HEADER END =======*/
@@ -87,25 +87,24 @@ body {
 
 .slider {
     background-color: #f06c64;
+    border-bottom: 0.7rem solid #ea676b;
 }
 
 .slider__wrapper {
-    padding: 5rem;
+    padding: 5.3rem 4.1rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .arrow {
     cursor:pointer;
-    transform: scale(90deg);
-    padding: 0;
 }
 
 .slider__container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    min-width: 85%;
 }
 
-.second__phone {
-
-}
 /*======= SLIDER END =======*/
