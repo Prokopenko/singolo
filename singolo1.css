@@ -87,11 +87,11 @@ body {
 
 .slider {
     background-color: #f06c64;
-    border-bottom: 0.7rem solid #ea676b;
+    border-bottom: 0.6rem solid #ea676b;
 }
 
 .slider__wrapper {
-    padding: 5.3rem 4.1rem;
+    padding: 5.3rem 4rem 5.5rem 4.1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -108,3 +108,52 @@ body {
 }
 
 /*======= SLIDER END =======*/
+
+/*======= SERVICES BLOCK BEGIN =======*/
+.our__services {
+    background-color: #f2f2f2;
+    color: #666d89;
+    padding: 6rem 4rem;
+}
+
+.our__services h2 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 1.55rem;
+}
+
+.our__services p {
+    font-size: 1.8rem;
+    letter-spacing: -0.0072rem;
+    line-height: 3rem;
+    text-align: left;
+}
+
+.our__services .services__list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.our__services .services__list li {
+}
+
+.our__services .services__list li .icon-service {
+    border: 2px solid #666d89;
+    border-radius: 50%;
+    max-width: 8rem;
+    min-height: 8rem;
+    text-align: center;
+}
+
+.our__services .services__list li .icon-service img {
+    height: 100%;
+}
+
+
+
+
+
+/*======= SERVICES BLOCK END =======*/
