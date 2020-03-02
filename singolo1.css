@@ -87,11 +87,11 @@ body {
 
 .slider {
     background-color: #f06c64;
-    border-bottom: 0.7rem solid #ea676b;
+    border-bottom: 0.6rem solid #ea676b;
 }
 
 .slider__wrapper {
-    padding: 5.3rem 4.1rem;
+    padding: 5.3rem 4rem 5.5rem 4.1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -108,3 +108,70 @@ body {
 }
 
 /*======= SLIDER END =======*/
+
+/*======= SERVICES BLOCK BEGIN =======*/
+.our__services {
+    background-color: #f2f2f2;
+    color: #666d89;
+    padding: 6rem 2.5rem 1.6rem 4rem;
+}
+
+.our__services h2 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 1.55rem;
+}
+
+.our__services p {
+    font-size: 1.8rem;
+    letter-spacing: -0.0072rem;
+    line-height: 3rem;
+    text-align: left;
+}
+
+.our__services .services__list {
+    list-style: none;
+    margin-top: 4.3rem;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.our__services .services__list li {
+    display: block;
+    max-width: 33%;
+    padding-bottom: 1.7rem;
+}
+
+.our__services .services__list li .icon-service {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0.4rem;
+    margin-left: 0.1rem;
+}
+.our__services .services__list li .text-service {
+    display: inline-block;
+    padding-left: 1.75rem;
+    width: 69%;
+}
+
+.our__services .services__list h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.our__services .services__list p {
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+    letter-spacing: 0.035rem;
+    text-align: justify;
+    margin-top: 0.8rem;
+}
+
+
+
+
+/*======= SERVICES BLOCK END =======*/
