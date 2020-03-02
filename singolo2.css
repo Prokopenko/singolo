@@ -1,0 +1,64 @@
+html {
+    font-size: 10px;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    margin: 0 auto;
+    width: 1020px;
+    /*padding: 25px;*/
+}
+
+/*======= PORTFOLIO BEGIN =======*/
+.portfolio {
+    background-color: #2d303a;
+    border-bottom: 0.6rem solid #323746;
+    padding: 3.5rem 4rem;
+    color: #666d89;
+}
+
+.portfolio h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.022rem;
+}
+
+.portfolio p {
+    font-size: 1.8rem;
+    letter-spacing: -0.022rem;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+}
+
+.portfolio__tag_block {
+    margin-left: 0.2rem;
+}
+.portfolio__tag_block button {
+    border: 0.1rem solid #666d89;
+    background-color: #2d303a;
+    color: #666d89;
+    border-radius: 0.5rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.03em;
+    padding: 0.3rem 0.6rem 0.3rem 0.7rem;
+    margin-right: 0.7rem;
+}
+
+.portfolio__tag_block button.active {
+    border: 0.1rem solid #ffffff;
+    color: #ffffff;
+}
+
+.portfolio__tag_block button:hover {
+    box-shadow: 0 0 1rem #c8c6c6;
+    border: 0.1rem solid #c8c6c6;
+    color: #c8c6c6;
+}
+
+/*======= PORTFOLIO END =======*/
