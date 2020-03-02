@@ -113,7 +113,7 @@ body {
 .our__services {
     background-color: #f2f2f2;
     color: #666d89;
-    padding: 6rem 4rem;
+    padding: 6rem 2.5rem 1.6rem 4rem;
 }
 
 .our__services h2 {
@@ -132,26 +132,44 @@ body {
 
 .our__services .services__list {
     list-style: none;
+    margin-top: 4.3rem;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .our__services .services__list li {
+    display: block;
+    max-width: 33%;
+    padding-bottom: 1.7rem;
 }
 
 .our__services .services__list li .icon-service {
-    border: 2px solid #666d89;
-    border-radius: 50%;
-    max-width: 8rem;
-    min-height: 8rem;
-    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0.4rem;
+    margin-left: 0.1rem;
+}
+.our__services .services__list li .text-service {
+    display: inline-block;
+    padding-left: 1.75rem;
+    width: 69%;
 }
 
-.our__services .services__list li .icon-service img {
-    height: 100%;
+.our__services .services__list h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
 }
 
+.our__services .services__list p {
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+    letter-spacing: 0.035rem;
+    text-align: justify;
+    margin-top: 0.8rem;
+}
 
 
 
