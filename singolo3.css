@@ -110,3 +110,36 @@ body {
     content: url("assets/icon-mail.png");
 }
 /*======= FORM-SECTION END =======*/
+
+/*======= FOOTER BEGIN =======*/
+.footer {
+    background-color: #2d303a;
+    padding: 2.1rem 4rem 2rem 4.2rem;
+    color: #666d89;
+    font-size: 1.2rem;
+    letter-spacing: -0.01rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer .footer__copyright {
+    align-self: center;
+}
+.footer .contact-button {
+    display: inline-block;
+    margin-right: 0.6rem;
+    width: 32px;
+    height: 32px;    
+}
+
+.footer .contact-button:nth-child(4) {
+    margin-right: 0;   
+}
+
+.footer .contact-button:hover {
+    padding-bottom: 0.2rem;
+    border-bottom: 0.1rem solid #666d89;
+}
+/*======= FOOTER END =======*/
