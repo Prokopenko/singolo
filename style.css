@@ -1,0 +1,441 @@
+html {
+    font-size: 10px;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    margin: 0 auto;
+    width: 1020px;
+    /*padding: 25px;*/
+}
+
+/*======= HEADER BEGIN =======*/
+
+.header {
+    background-color: #2d303a;
+    border-bottom: 0.6rem solid #323746;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.header__wrapper {
+    padding: 2.9rem 4rem 1.9rem 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a.logo {
+    text-decoration: none;
+    margin-bottom: 0;
+}
+.header a.logo h1{
+    margin: 0;
+    color: #ffffff;
+    font-size: 2.52rem;
+    letter-spacing: -0.07rem;
+}
+
+.header .red__star {
+    color: #f06c64;
+}
+
+.header__navigation ul{
+    list-style: none;
+    font-size: 1.22rem;
+    letter-spacing: -0.03rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.header__navigation ul li {
+    padding: 1.29rem 0;
+}
+
+.header__navigation ul li::before {
+    content: "\2022";
+    color: #494e62;
+    display: inline-block; 
+    font-size: 0.7rem;
+    height: 1rem;
+    vertical-align: middle;
+    padding: 0 1.31rem;
+}
+
+.header__navigation ul li.active {
+    color: #f06c64;
+}
+
+.header__navigation ul li.active::before {
+    display: none;
+}
+
+.header__navigation ul li:hover {
+    color: #ea676b;
+}
+
+/*======= HEADER END =======*/
+
+/*======= SLIDER BEGIN =======*/
+
+.slider {
+    background-color: #f06c64;
+    border-bottom: 0.6rem solid #ea676b;
+}
+
+.slider__wrapper {
+    padding: 5.3rem 4rem 5.5rem 4.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow {
+    cursor:pointer;
+}
+
+.slider__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 85%;
+}
+
+/*======= SLIDER END =======*/
+
+/*======= SERVICES BLOCK BEGIN =======*/
+.our__services {
+    background-color: #f2f2f2;
+    color: #666d89;
+    padding: 6rem 2.5rem 1.5rem 4rem;
+    border-bottom: 0.5rem solid #ffffff;
+}
+
+.our__services h2 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 1.55rem;
+}
+
+.our__services p {
+    font-size: 1.8rem;
+    letter-spacing: -0.0072rem;
+    line-height: 3rem;
+    text-align: left;
+}
+
+.our__services .services__list {
+    list-style: none;
+    margin-top: 4.3rem;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.our__services .services__list li {
+    display: block;
+    max-width: 33%;
+    padding-bottom: 1.7rem;
+}
+
+.our__services .services__list li .icon-service {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0.4rem;
+    margin-left: 0.1rem;
+}
+.our__services .services__list li .text-service {
+    display: inline-block;
+    padding-left: 1.75rem;
+    width: 69%;
+}
+
+.our__services .services__list h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.our__services .services__list p {
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+    letter-spacing: 0.035rem;
+    text-align: justify;
+    margin-top: 0.8rem;
+}
+
+/*======= SERVICES BLOCK END =======*/
+
+/*======= PORTFOLIO BEGIN =======*/
+.portfolio {
+    background-color: #2d303a;
+    border-bottom: 0.6rem solid #323746;
+    padding: 3.4rem 4rem 4.5rem 4rem;
+    color: #666d89; 
+}
+
+.portfolio h2, .about-us h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.022rem;
+}
+
+.portfolio p, .about-us p {
+    font-size: 1.8rem;
+    letter-spacing: -0.022rem;
+    line-height: 1.7;
+    margin-bottom: 0.9rem;
+    text-align: justify;
+}
+
+.portfolio__tag_block {
+    margin-left: 0.1rem;
+    margin-bottom: 2rem;
+}
+.portfolio__tag_block button {
+    border: 0.1rem solid #666d89;
+    background-color: #2d303a;
+    color: #666d89;
+    border-radius: 0.5rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.03em;
+    padding: 0.3rem 0.7rem 0.4rem 0.7rem;
+    margin-right: 0.6rem;
+}
+
+.portfolio__tag_block button.active {
+    border: 0.1rem solid #ffffff;
+    color: #ffffff;
+}
+
+.portfolio__tag_block button:hover {
+    box-shadow: 0 0 1rem #c8c6c6;
+    border: 0.1rem solid #c8c6c6;
+    color: #c8c6c6;
+}
+
+.portfolio .graphic-examples ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio .graphic-examples ul li {
+    display: block;
+    margin-bottom: 1.7rem;
+}
+/*======= PORTFOLIO END =======*/
+/*======= ABOUT US START =======*/
+.about-us {
+    background-color: #f2f2f2;
+    color: #666d89;
+    padding: 3.5rem 4rem 6.3rem 4rem;
+    border-bottom: 0.5rem solid #ffffff;
+}
+
+.about-us p.about-us__info {
+    margin-bottom: 4.5rem;
+}
+
+.about-us .personal-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-us .personal-list .person {
+    width: 32%;
+}
+
+.about-us .personal-list h3 {
+    margin-top: 1.3rem;
+    margin-bottom: 0.8rem;
+    letter-spacing: -0.035rem;
+}
+.about-us .personal-list p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 2.4rem;
+    letter-spacing: -0.01em;
+}
+
+.about-us .person .contact-button {
+    display: inline-block;
+    margin-right: 0.5rem;
+    width: 32px;
+    height: 32px;    
+}
+
+.about-us .person .contact-button:hover {
+    padding-bottom: 0.2rem;
+    border-bottom: 0.1rem solid #666d89;
+}
+/*======= ABOUT US END =======*/
+
+/*======= FORM-SECTION BEGIN =======*/
+.form__quote {
+    background-color: #f06c64;
+    border-bottom: 0.6rem solid #ea676b;
+    padding: 3.5rem 4rem 0.1rem 4rem;
+    color: #f0d8d9; 
+}
+
+.form__quote h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.015rem;
+}
+
+.form__quote p {
+    font-size: 1.8rem;
+    letter-spacing: -0.022rem;
+    line-height: 1.7;
+    margin-bottom: 0.9rem;
+    text-align: justify;
+}
+
+.form__quote .contact__form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3.7rem;
+    padding: 0;
+}
+
+.contact__form .form {
+    flex: 2;
+    padding-right: 1rem;
+}
+
+.contact__form .form input[type=text], .contact__form .form textarea {
+    width: 100%;
+    padding: 1.1rem 1.5rem 1.1rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.9rem;
+    box-sizing: border-box;
+    background-color: #d6564f;
+    color: #f0d8d9;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.contact__form .form input[type=text]::placeholder, .contact__form .form textarea::placeholder { 
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    color: #f48c8f;
+}
+
+.contact__form .form input[type=submit] {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    padding: 1.1rem 3rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.9rem;
+    box-sizing: border-box;
+    background-color: #d6564f;
+    color: #f0d8d9;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.contact__form .form input[type=submit]:hover {
+    border: 0.1rem solid #ce354f;
+    margin-top: 0.7rem;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+}
+
+.contact__form .form__information {
+    flex: 1;
+}
+
+.contact__form .form__information h3 {
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.1rem;
+    letter-spacing: -0.025rem;
+}
+
+.contact__form .form__information p {
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.025rem;
+    text-align: justify;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.contact__form .form__information .info {
+    line-height: 2.1rem;
+    margin-bottom: 2.5rem;
+}
+
+.contact__form .form__information span {
+    margin-right: 1.3rem;
+    letter-spacing: 0.05rem;
+}
+.contact__form .form__information .contact-link {
+    color: #f0d8d9;
+    text-decoration: none;
+}
+.contact__form .form__information .address {
+    content: url("assets/icon-location.png");
+}
+
+.contact__form .form__information .phone {
+    content: url("assets/icon-phone.png");
+}
+
+.contact__form .form__information .mail {
+    content: url("assets/icon-mail.png");
+}
+/*======= FORM-SECTION END =======*/
+
+/*======= FOOTER BEGIN =======*/
+.footer {
+    background-color: #2d303a;
+    padding: 2.1rem 4rem 2rem 4.2rem;
+    color: #666d89;
+    font-size: 1.2rem;
+    letter-spacing: -0.01rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer .footer__copyright {
+    align-self: center;
+}
+.footer .contact-button {
+    display: inline-block;
+    margin-right: 0.6rem;
+    width: 32px;
+    height: 32px;    
+}
+
+.footer .contact-button:nth-child(4) {
+    margin-right: 0;   
+}
+
+.footer .contact-button:hover {
+    padding-bottom: 0.2rem;
+    border-bottom: 0.1rem solid #666d89;
+}
+/*======= FOOTER END =======*/
