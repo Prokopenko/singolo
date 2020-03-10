@@ -237,6 +237,10 @@ body {
     display: block;
     margin-bottom: 1.7rem;
 }
+
+.portfolio .graphic-examples ul li:nth-child(1n+13) {
+    display: none;
+}
 /*======= PORTFOLIO END =======*/
 /*======= ABOUT US START =======*/
 .about-us {
