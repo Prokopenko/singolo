@@ -79,6 +79,7 @@ body {
 
 .header__navigation ul li:hover {
     color: #ea676b;
+    cursor: pointer;
 }
 
 /*======= HEADER END =======*/
